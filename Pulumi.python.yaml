@@ -1,0 +1,4 @@
+config:
+  first:_name: desired-repo-name
+  first:repo_name: desired-repo-name
+  first:repo_visibility: private

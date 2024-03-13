@@ -1,0 +1,18 @@
+name: first
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: first project with pulumi
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: python
+template:
+  description: A minimal GitHub Python Pulumi program
+  config:
+    github:token:
+      description: The GitHub token to use for authentication
+      secret: true
+    github:owner:
+      description: To target a specific GitHub organization or an individual user account, set the GitHub owner configuration value.
